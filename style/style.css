@@ -193,8 +193,25 @@ header {
 }
 
 
+/* feature section  */
+#feature-section-title
+{
+    border-left: 5px solid #FF900E;
+    padding-left: 26px;
+}
+.feature-card{
+    border-radius: 8px;
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 30px 0  rgba(0, 0, 0, 0.06) ;
+    margin-bottom: 20px;
+}
+.feature-title{
+font-size: 1.25rem;
+font-weight: 600;
 
 
+}
 
 
 /* Responsive media quary */
@@ -222,8 +239,8 @@ header {
         gap : 32px
     }
     .sponsor-company{
-        grid-template-columns: repeat(2, 1fr);
-        gap: 20px;
+        grid-template-columns:  1fr;
+        gap: 50px;
     }
 }
 /* Tablet  */
